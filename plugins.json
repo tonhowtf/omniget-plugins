@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "courses",
+      "name": "Course Downloader",
+      "description": "Download full courses from 35+ education platforms including Hotmart, Udemy, Kiwify, Teachable, Kajabi, and more.",
+      "author": "tonhowtf",
+      "repo": "tonhowtf/omniget-plugin-courses",
+      "homepage": "https://github.com/tonhowtf/omniget-plugin-courses",
+      "tags": ["courses", "education", "hotmart", "udemy", "kiwify"],
+      "official": true,
+      "capabilities": ["core:events", "core:toast", "core:settings", "core:filesystem", "core:proxy", "core:tools", "core:download-queue"]
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram Downloader",
+      "description": "Download photos, videos, files, and audio from Telegram channels and groups with QR code or phone login.",
+      "author": "tonhowtf",
+      "repo": "tonhowtf/omniget-plugin-telegram",
+      "homepage": "https://github.com/tonhowtf/omniget-plugin-telegram",
+      "tags": ["telegram", "media", "channels", "groups"],
+      "official": true,
+      "capabilities": ["core:events", "core:toast", "core:settings", "core:filesystem"]
+    },
+    {
+      "id": "convert",
+      "name": "Media Converter",
+      "description": "Convert videos and audio between formats with FFmpeg and GPU hardware acceleration.",
+      "author": "tonhowtf",
+      "repo": "tonhowtf/omniget-plugin-convert",
+      "homepage": "https://github.com/tonhowtf/omniget-plugin-convert",
+      "tags": ["convert", "ffmpeg", "video", "audio", "gpu"],
+      "official": true,
+      "capabilities": ["core:events", "core:toast", "core:tools"]
+    }
+  ]
+}
