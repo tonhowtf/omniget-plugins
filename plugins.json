@@ -33,6 +33,17 @@
       "tags": ["convert", "ffmpeg", "video", "audio", "gpu"],
       "official": true,
       "capabilities": ["core:events", "core:toast", "core:tools"]
+    },
+    {
+      "id": "study",
+      "name": "Study",
+      "description": "Course library with a resuming player, a PDF and EPUB reader, notes, flashcards and focus sessions \u2014 watch and read what you downloaded without leaving OmniGet.",
+      "author": "tonhowtf",
+      "repo": "tonhowtf/omniget-study-release",
+      "homepage": "https://github.com/tonhowtf/omniget-study-release",
+      "tags": ["study", "courses", "player", "reader", "epub", "pdf", "flashcards", "notes"],
+      "official": true,
+      "capabilities": ["core:events", "core:toast", "core:settings", "core:filesystem", "core:tools"]
     }
   ]
 }
